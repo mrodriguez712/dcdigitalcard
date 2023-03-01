@@ -28,6 +28,7 @@ img {
     text-shadow: 1px 1px 2px black;
 }
 
+/* batman */
 .batman {
     background: url('images/batman-cover.jpg');
     background-repeat: no-repeat;
@@ -36,6 +37,36 @@ img {
 
 .batman:hover {
     background: url('images/batman-hover.jpg');
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: cover;
+    transition: ease-in-out .7s;
+}
+
+/* superman */
+.superman {
+    background: url('images/superman-cover.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.superman:hover {
+    background: url('images/superman-hover.jpg');
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: cover;
+    transition: ease-in-out .7s;
+}
+
+/* wonder woman */
+.wonder-woman {
+    background: url('images/ww-cover.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.wonder-woman:hover {
+    background: url('images/ww-hover.jpg');
     background-repeat: no-repeat;
     background-position: top;
     background-size: cover;
